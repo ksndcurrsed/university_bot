@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import sqlite3
 import json
 import time
-
+from security import security
 url = 'https://org.fa.ru/'
 
 class univer:
@@ -172,8 +172,8 @@ class univer:
             self.conn.close()
             return False
         else:
-            username = result[1] 
-            password = result[2]
+            username = security().decrypt(result[1])
+            password = security().decrypt(result[2])
             logdata = [username, password]
             self.conn.close()
             return logdata

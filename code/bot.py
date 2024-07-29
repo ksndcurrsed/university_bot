@@ -76,6 +76,9 @@ async def kn(message):
 @dp.message(F.text.lower()[3:6] == 'dot' )
 async def logpass(message):
     log_data = message.text.split(':')
+    login = security().encrypt(log_data[0])
+    password = security().encrypt(log_data[1])
+    log_data = [login, password]
     chat_id = message.chat.id
     await message.answer(univer(course).database_auth(log_data, chat_id), reply_markup= keyboard_menu())
 
