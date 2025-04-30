@@ -28,7 +28,7 @@ Libraries:
 3. Save login data
 4. Send marks from record book
 
-### Main developers:
+### Developers:
 
  <img src='https://avatars.githubusercontent.com/u/122749239?v=4' alt='Avatar' width='100' height='100'>   - **Artem Plohoy**  
   _Role: Main developer_  
@@ -36,7 +36,7 @@ Libraries:
 
 
 <img src='https://avatars.githubusercontent.com/u/167213172?v=4' alt='Avatar' width='100' height='100'>   - **Andrey Ilyin**  
-  _Role: Main developer_   
+  _Role: Parse algorithm developer_   
   [GitHub](https://github.com/psina32) | [Telegram](t.me/andr5532)
 
 _If you found any bugs, or have ideas to develope, we wait you in [![Telegram](https://img.shields.io/badge/Telegram-blue?logo=telegram&logoColor=white)](https://t.me/h47zx)_
